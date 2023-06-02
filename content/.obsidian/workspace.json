@@ -148,10 +148,11 @@
   },
   "active": "68f8788e64a37ee5",
   "lastOpenFiles": [
+    "experiments/_index.md",
+    "experiments/1.SOS Led.md",
     "experiments/4.Calculator.md",
     "experiments/3.Motion Sensor.md",
     "experiments/2.LED BuzzerChaser.md",
-    "experiments/1.SOS Led.md",
     "about.md",
     "page-from-obsidian.md",
     "starter.md",
