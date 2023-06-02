@@ -10,5 +10,4 @@ This is my own CMS
 	Hello
 </div>
 
-<img src="/images/self-pic.png"/>
-
+<img src="/images/self-art.png"/>
