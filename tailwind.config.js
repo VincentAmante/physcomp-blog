@@ -11,12 +11,13 @@ module.exports = {
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
+    './content/**/*.md'
   ],
   theme: {
     extend: {
       colors: {
         primary: '#E5724D',
-        seconadry: '#181B24',
+        secondary: '#181B24',
       },
     },
   },
