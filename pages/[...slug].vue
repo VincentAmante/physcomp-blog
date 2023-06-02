@@ -8,7 +8,7 @@
         <ContentNavigation />
       </div>
     </div>
-    <div class="flex flex-col w-full rounded-lg prose-lg px-8 grow basis-3/4">
+    <div class="flex flex-col w-full rounded-lg prose-lg px-8 grow basis-3/4 prose-li:list-disc">
       <ContentDoc />
     </div>
   </main>
@@ -21,5 +21,17 @@ main:deep(a) {
 
 main:deep(h1) {
   @apply text-6xl font-bold pb-4 border-b-2 border-b-primary;
+}
+
+main:deep(pre) {
+  @apply mockup-code bg-cyan-950 font-mono text-white
+}
+
+main:deep(img) {
+  @apply w-full rounded-lg max-w-md
+}
+
+main:deep(video) {
+  @apply w-full rounded-lg max-w-xs
 }
 </style>
