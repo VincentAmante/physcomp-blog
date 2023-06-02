@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "33af4cc8abed2a74",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f23f5820c27a1fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2d78ae5ad8ad22d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68f8788e64a37ee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "page-from-obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "216ad822a6eed0c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "04913e24db487cbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acc4d9016011b4e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf0083b25fd8c5d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6db8b5968bdb61f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "018cd5e2ea8646ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9a2d0faa2331941",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfee5d2865a6f3f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "page-from-obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f724d5b1e75024f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "page-from-obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "387fea42cb70b999",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4f6c91e411656464",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "page-from-obsidian.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "acc4d9016011b4e7",
+  "lastOpenFiles": [
+    "test/hello.md",
+    "page-from-obsidian.md",
+    "test",
+    "about.md",
+    "starter.md"
+  ]
+}
