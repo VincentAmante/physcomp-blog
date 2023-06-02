@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "experiments/1.SOS Led.md",
+                "file": "2.blog/3.Presentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "experiments/1.SOS Led.md",
+                "file": "2.blog/3.Presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "experiments/1.SOS Led.md",
+                "file": "2.blog/3.Presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "experiments/1.SOS Led.md"
+                "file": "2.blog/3.Presentation.md"
               }
             }
           }
@@ -148,16 +148,22 @@
   },
   "active": "68f8788e64a37ee5",
   "lastOpenFiles": [
+    "2.blog/2.Outlining LED Display.md",
+    "2.blog/3.Presentation.md",
+    "2.blog/1.Sketching Music Fountain.md",
+    "1.experiments/3.Motion Sensor.md",
+    "1.experiments/2.LED BuzzerChaser.md",
+    "1.experiments/1.SOS Led.md",
+    "1.experiments/4.Calculator.md",
+    "1.experiments/index.md",
+    "2.blog",
+    "experiments/sos-led.md",
     "experiments/_index.md",
-    "experiments/1.SOS Led.md",
-    "experiments/4.Calculator.md",
-    "experiments/3.Motion Sensor.md",
-    "experiments/2.LED BuzzerChaser.md",
     "about.md",
     "page-from-obsidian.md",
     "starter.md",
     "Untitled.md",
-    "experiments",
+    "1.experiments",
     "test/hello.md",
     "test"
   ]
