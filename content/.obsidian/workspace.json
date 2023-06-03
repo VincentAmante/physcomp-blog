@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8e64751ec20f41b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.blog/9.InteractiveTiles-02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5be2108873f9d9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.blog/3.Presentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.blog/8.InteractiveTiles-01.md",
+                "file": "2.blog/3.Presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.blog/8.InteractiveTiles-01.md",
+                "file": "2.blog/3.Presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.blog/8.InteractiveTiles-01.md"
+                "file": "2.blog/3.Presentation.md"
               }
             }
           }
@@ -159,31 +183,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6edeecd5cd364f2f",
+  "active": "acc4d9016011b4e7",
   "lastOpenFiles": [
-    "2.blog/5.Audiovisualiser-01.md",
-    "2.blog/8.InteractiveTiles-01.md",
-    "img/button-matrix.png",
-    "Pasted image 20230603104628.png",
-    "2.blog/6.Audiovisualiser-02.md",
-    "2.blog/7.Audiovisualiser-03.md",
     "2.blog/4. Mini Experiments.md",
     "1.experiments/2.LED BuzzerChaser.md",
+    "1.experiments/3.Motion Sensor.md",
+    "1.experiments/index.md",
+    "2.blog/1.Ideation.md",
+    "2.blog/2.LED Display.md",
+    "2.blog/3.Presentation.md",
+    "2.blog/5.Audiovisualiser-01.md",
+    "2.blog/14.FinalTouches-02.md",
+    "2.blog/13.FinalTouches-01.md",
+    "2.blog/12.InteractiveTiles-06.md",
+    "2.blog/11.InteractiveTiles-05.md",
+    "2.blog/9.InteractiveTiles-02.md",
+    "2.blog/10.InteractiveTiles-04.md",
+    "2.blog/9.InteractiveTiles-03.md",
+    "2.blog/8.InteractiveTiles-01.md",
+    "interactive-tiles-01.md",
+    "2.blog/7.Audiovisualiser-03.md",
+    "2.blog/6.Audiovisualiser-02.md",
+    "img/button-matrix.png",
+    "Pasted image 20230603104628.png",
     "img/pasted-image.png",
     "img/week-01.png",
     "1.experiments/1.SOS Led.md",
-    "1.experiments/3.Motion Sensor.md",
     "1.experiments/4.Calculator.md",
     "img/week-01.heic",
     "img/IMG_6668.heic",
     "IMG_6668 1.heic",
     "IMG_6668.heic",
     "img",
-    "2.blog/1.Ideation.md",
     "Pasted image 20230603093717.png",
-    "2.blog/2.LED Display.md",
-    "2.blog/3.Presentation.md",
-    "1.experiments/index.md",
     "2.blog",
     "experiments/sos-led.md",
     "experiments/_index.md",
@@ -191,7 +223,6 @@
     "page-from-obsidian.md",
     "starter.md",
     "1.experiments",
-    "test/hello.md",
     "test"
   ]
 }
