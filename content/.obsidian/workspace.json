@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6edeecd5cd364f2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.blog/8.InteractiveTiles-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.blog/3.Presentation.md",
+                "file": "2.blog/8.InteractiveTiles-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.blog/3.Presentation.md",
+                "file": "2.blog/8.InteractiveTiles-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.blog/3.Presentation.md"
+                "file": "2.blog/8.InteractiveTiles-01.md"
               }
             }
           }
@@ -146,15 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68f8788e64a37ee5",
+  "active": "6edeecd5cd364f2f",
   "lastOpenFiles": [
-    "2.blog/2.Outlining LED Display.md",
-    "2.blog/3.Presentation.md",
-    "2.blog/1.Sketching Music Fountain.md",
-    "1.experiments/3.Motion Sensor.md",
+    "2.blog/5.Audiovisualiser-01.md",
+    "2.blog/8.InteractiveTiles-01.md",
+    "img/button-matrix.png",
+    "Pasted image 20230603104628.png",
+    "2.blog/6.Audiovisualiser-02.md",
+    "2.blog/7.Audiovisualiser-03.md",
+    "2.blog/4. Mini Experiments.md",
     "1.experiments/2.LED BuzzerChaser.md",
+    "img/pasted-image.png",
+    "img/week-01.png",
     "1.experiments/1.SOS Led.md",
+    "1.experiments/3.Motion Sensor.md",
     "1.experiments/4.Calculator.md",
+    "img/week-01.heic",
+    "img/IMG_6668.heic",
+    "IMG_6668 1.heic",
+    "IMG_6668.heic",
+    "img",
+    "2.blog/1.Ideation.md",
+    "Pasted image 20230603093717.png",
+    "2.blog/2.LED Display.md",
+    "2.blog/3.Presentation.md",
     "1.experiments/index.md",
     "2.blog",
     "experiments/sos-led.md",
@@ -162,7 +190,6 @@
     "about.md",
     "page-from-obsidian.md",
     "starter.md",
-    "Untitled.md",
     "1.experiments",
     "test/hello.md",
     "test"

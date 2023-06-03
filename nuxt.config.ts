@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/devtools',
     '@vueuse/nuxt',
+    'nuxt-content-assets', // ! Keep before @nuxt-content
     '@nuxt/content'
   ],
   build: {
