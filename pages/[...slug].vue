@@ -44,7 +44,7 @@ const isBlogs = computed(() => {
 
 
     <!-- Nav Bar -->
-    <div class="drawer h-full basis-1/3 bg-base-100 border-[1px] border-primary p-4 rounded-lg">
+    <div id="#top" class="drawer h-full basis-1/3 bg-base-100 border-[1px] border-primary p-4 rounded-lg">
       <nav
         class="drawer-side max-h-none flex flex-col text-white prose prose-a:no-underline prose-li:list-none prose-li:list-outside">
         <NuxtLink to="/" class="btn btn-ghost text-primary text-2xl w-full flex items-center px-2 font-bold">
@@ -112,7 +112,7 @@ const isBlogs = computed(() => {
       <ContentDoc>
         <template v-slot="{ doc }" #default>
           <div class="pb-4 border-b-2 border-b-primary">
-            <h1 id="top" class="text-6xl font-boldy mb-1">
+            <h1 class="text-6xl font-boldy mb-1">
               {{ doc.title }}
             </h1>
           </div>
@@ -133,6 +133,10 @@ main:deep(a) {
 
 main:deep(pre) {
   @apply mockup-code bg-base-300 font-['Fira_Code'] leading-5
+}
+
+main:deep(code) {
+  @apply font-['Fira_Code']
 }
 
 main:deep(img) {
