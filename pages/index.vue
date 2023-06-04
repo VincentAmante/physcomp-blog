@@ -209,7 +209,7 @@
                                 </NuxtLink>
                             </div>
                         </div>
-                        <div class="p-2">
+                        <div class="p-2 w-full lg:max-w-lg">
                             <iframe class=" w-full lg:min-w-max" width="560" height="315"
                                 src="https://www.youtube.com/embed/HfXKXD3jIM8" title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
