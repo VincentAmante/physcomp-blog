@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.blog/5.Audiovisualiser-01.md",
+                "file": "2.blog/15.FinalTouches-02.md",
                 "mode": "source",
                 "source": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.blog/5.Audiovisualiser-01.md",
+                "file": "2.blog/15.FinalTouches-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.blog/5.Audiovisualiser-01.md",
+                "file": "2.blog/15.FinalTouches-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.blog/5.Audiovisualiser-01.md"
+                "file": "2.blog/15.FinalTouches-02.md"
               }
             }
           }
@@ -185,15 +185,8 @@
   },
   "active": "f5be2108873f9d9f",
   "lastOpenFiles": [
-    "2.blog/4. Mini Experiments.md",
-    "2.blog/3.Presentation.md",
-    "2.blog/5.Audiovisualiser-01.md",
-    "2.blog/6.Audiovisualiser-02.md",
-    "img/button-matrix.png",
-    "img/pasted-image.png",
-    "2.blog/2.LED Display.md",
-    "2.blog/15.FinalTouches-02.md",
     "2.blog/14.FinalTouches-01.md",
+    "2.blog/15.FinalTouches-02.md",
     "2.blog/13.InteractiveTiles-06.md",
     "2.blog/12.InteractiveTiles-05.md",
     "2.blog/11.InteractiveTiles-04.md",
@@ -201,6 +194,13 @@
     "2.blog/9.InteractiveTiles-02.md",
     "2.blog/8.InteractiveTiles-01.md",
     "2.blog/7.Audiovisualiser-03.md",
+    "2.blog/6.Audiovisualiser-02.md",
+    "2.blog/5.Audiovisualiser-01.md",
+    "2.blog/4. Mini Experiments.md",
+    "2.blog/3.Presentation.md",
+    "img/button-matrix.png",
+    "img/pasted-image.png",
+    "2.blog/2.LED Display.md",
     "2.blog/1.Ideation.md",
     "1.experiments/1.SOS Led.md",
     "2.blog/index.md",
