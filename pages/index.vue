@@ -45,18 +45,28 @@
                                 Deeno Board
                             </h3>
                         </NuxtLink>
-                        <NuxtLink to="/experiments">
+                        <NuxtLink to="#evaluation">
                             <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
-                                <span class="text-lg">/</span>
-                                Experiments
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fas', 'hashtag']"></font-awesome-icon>
+                                </ClientOnly>
+                                Evaluation
                             </h3>
                         </NuxtLink>
-                        <NuxtLink to="/blog">
-                            <h3 class=" bg-base-100 p-4 py-2 btn btn-outline gap-2">
-                                <span class="text-lg">/</span>
-                                Blog
-                            </h3>
-                        </NuxtLink>
+                        <div class="flex columns-2 flex-wrap gap-2">
+                            <NuxtLink to="/experiments">
+                                <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                    <span class="text-lg">/</span>
+                                    Experiments
+                                </h3>
+                            </NuxtLink>
+                            <NuxtLink to="/blog">
+                                <h3 class=" bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                    <span class="text-lg">/</span>
+                                    Blog
+                                </h3>
+                            </NuxtLink>
+                        </div>
                     </div>
 
                     <h2 class="text-xl">External Links</h2>
@@ -220,10 +230,10 @@
                 <font-awesome-icon :icon="['fas', 'heart']" class="text-xl opacity-30"></font-awesome-icon>
             </ClientOnly>
         </div>
-        <section class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
+        <section id="evaluation" class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
             <div class="w-full flex flex-col items-center h-full py-4 ">
                 <h2 class="text-4xl text-primary uppercase font-bold">
-                    Reflection
+                    Evaluation
                 </h2>
                 <div class="flex flex-col gap-4 py-3 items-center w-full justify-center ">
                     <div class="flex flex-col items-center justify-center w-full gap-2 max-w-xl text-center leading-7">
