@@ -5,10 +5,8 @@
 
 <template>
     <main class="flex flex-col items-center justify-center w-full overflow-hidden scroll-smooth">
-
-
         <NuxtLink to="#home"
-            class="bottom-0 mx-auto m-4 fixed btn-circle cursor-pointer btn btn-neutral opacity-50 hover:opacity-100">
+            class="bottom-0 right-0 m-4 lg:mx-12 fixed btn-circle cursor-pointer btn btn-neutral opacity-50 hover:opacity-100">
             <ClientOnly>
                 <font-awesome-icon :icon="['fas', 'chevron-up']" class="text-4xl" />
             </ClientOnly>
