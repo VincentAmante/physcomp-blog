@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   },
   content: {
     highlight: {
-      theme: 'slack-dark',
+      theme: 'github-dark',
       preload: [
         'c'
       ]
