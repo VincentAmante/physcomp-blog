@@ -136,7 +136,7 @@ main:deep(pre) {
 }
 
 main:deep(code) {
-  @apply font-['Fira_Code']
+  @apply font-['Fira_Code'] bg-base-300 rounded-md px-2 py-1
 }
 
 main:deep(img) {
