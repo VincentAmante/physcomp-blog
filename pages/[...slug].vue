@@ -34,12 +34,16 @@ const isBlogs = computed(() => {
 
 <template>
   <main class="px-6 py-16 flex gap-2 flex-col lg:flex-row">
+
     <NuxtLink to="#top"
       class="bottom-0 right-0 m-4 lg:mx-12 fixed cursor-pointer btn btn-ghost opacity-50 hover:opacity-100 text-primary">
       <ClientOnly>
         <font-awesome-icon :icon="['fas', 'chevron-up']" class="text-5xl" />
       </ClientOnly>
     </NuxtLink>
+
+
+    <!-- Nav Bar -->
     <div class="drawer h-full basis-1/3 bg-base-100 border-[1px] border-primary p-4 rounded-lg">
       <nav
         class="drawer-side max-h-none flex flex-col text-white prose prose-a:no-underline prose-li:list-none prose-li:list-outside">
@@ -70,7 +74,11 @@ const isBlogs = computed(() => {
         </ContentNavigation>
       </nav>
     </div>
+
+
     <div class="flex flex-col w-full rounded-lg prose-lg px-8 grow basis-3/4 prose-li:list-disc py-8">
+
+      <!-- Displays lists of blogs if on index page -->
       <div v-if="isExperiments">
         <div v-for="item in experimentsQuery">
           <NuxtLink :to="item._path"
@@ -99,6 +107,8 @@ const isBlogs = computed(() => {
           <div class="divider"></div>
         </div>
       </div>
+
+      <!-- Displays Content -->
       <ContentDoc>
         <template v-slot="{ doc }" #default>
           <div class="pb-4 border-b-2 border-b-primary">
