@@ -44,10 +44,10 @@ const isBlogs = computed(() => {
 
 
     <!-- Nav Bar -->
-    <div id="#top" class="drawer h-full basis-1/3 bg-base-100 border-[1px] border-primary p-4 rounded-lg">
+    <div class="drawer h-full basis-1/3 bg-base-100 border-[1px] border-primary p-4 rounded-lg">
       <nav
         class="drawer-side max-h-none flex flex-col text-white prose prose-a:no-underline prose-li:list-none prose-li:list-outside">
-        <NuxtLink to="/" class="btn btn-ghost text-primary text-2xl w-full flex items-center px-2 font-bold">
+        <NuxtLink id="#top" to="/" class="btn btn-ghost text-primary text-2xl w-full flex items-center px-2 font-bold">
           <ClientOnly>
             <font-awesome-icon :icon="['fas', 'chevron-left']" class="mr-2" />
           </ClientOnly>
