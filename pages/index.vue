@@ -210,7 +210,7 @@
                             </div>
                         </div>
                         <div class="p-2 w-full lg:max-w-lg">
-                            <iframe class=" w-full lg:min-w-max" width="560" height="315"
+                            <iframe class=" w-full lg:min-w-max rounded-md" width="560" height="315"
                                 src="https://www.youtube.com/embed/HfXKXD3jIM8" title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
@@ -220,7 +220,7 @@
                         <h2 class="text-2xl font-semibold py-2 max-w-xl text-center">
                             As for the lovely team that worked on this project with me, here are all of us and our roles.
                         </h2>
-                        <img class="max-w-5xl w-full" src="@/assets/images/meet-the-team.png" />
+                        <img class="max-w-5xl w-full rounded-md" src="@/assets/images/meet-the-team.png" />
                     </div>
                 </div>
             </div>
