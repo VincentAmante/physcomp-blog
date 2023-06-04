@@ -31,36 +31,53 @@
                     <div class="flex columns-2 flex-wrap gap-2">
                         <NuxtLink to="#thematic-infographic">
                             <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
-                                #Infographic
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fas', 'hashtag']"></font-awesome-icon>
+                                </ClientOnly>
+                                Infographic
                             </h3>
                         </NuxtLink>
                         <NuxtLink to="#deeno-board">
                             <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
-                                #Deeno Board
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fas', 'hashtag']"></font-awesome-icon>
+                                </ClientOnly>
+                                Deeno Board
                             </h3>
                         </NuxtLink>
                         <NuxtLink to="/experiments">
                             <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
-                                /Experiments
+                                <span class="text-lg">/</span>
+                                Experiments
                             </h3>
                         </NuxtLink>
                         <NuxtLink to="/blog">
                             <h3 class=" bg-base-100 p-4 py-2 btn btn-outline gap-2">
-                                /Blog
+                                <span class="text-lg">/</span>
+                                Blog
                             </h3>
                         </NuxtLink>
                     </div>
 
                     <h2 class="text-xl">External Links</h2>
                     <div class="flex columns-2 flex-wrap gap-2">
+
                         <NuxtLink
-                            to="https://drive.google.com/drive/folders/1d9U-e_XEdIsf7rQIw3MbdTMxlmwrCLdK?usp=drive_link"
+                            to="https://www.figma.com/file/dgfQ2uo7mbIjexZwSPg7Sn/LED-Board?type=design&node-id=0%3A1&t=iQnAi0zgyOXNOaQR-1"
                             target="_blank">
                             <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
                                 <ClientOnly>
-                                    <font-awesome-icon :icon="['fab', 'google-drive']"></font-awesome-icon>
+                                    <font-awesome-icon :icon="['fab', 'figma']"></font-awesome-icon>
                                 </ClientOnly>
-                                Google Drive
+                                Schematic & Designs
+                            </h3>
+                        </NuxtLink>
+                        <NuxtLink to="https://github.com/louisuy/deenoboard" target="_blank">
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
+                                </ClientOnly>
+                                Project Code
                             </h3>
                         </NuxtLink>
                         <NuxtLink
@@ -73,22 +90,15 @@
                                 Cost Sheet
                             </h3>
                         </NuxtLink>
+
                         <NuxtLink
-                            to="https://www.figma.com/file/dgfQ2uo7mbIjexZwSPg7Sn/LED-Board?type=design&node-id=0%3A1&t=iQnAi0zgyOXNOaQR-1"
+                            to="https://drive.google.com/drive/folders/1d9U-e_XEdIsf7rQIw3MbdTMxlmwrCLdK?usp=drive_link"
                             target="_blank">
                             <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
                                 <ClientOnly>
-                                    <font-awesome-icon :icon="['fab', 'figma']"></font-awesome-icon>
+                                    <font-awesome-icon :icon="['fab', 'google-drive']"></font-awesome-icon>
                                 </ClientOnly>
-                                Figma
-                            </h3>
-                        </NuxtLink>
-                        <NuxtLink to="https://github.com/louisuy/deenoboard" target="_blank">
-                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
-                                <ClientOnly>
-                                    <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
-                                </ClientOnly>
-                                Github Repo
+                                Other Project Files
                             </h3>
                         </NuxtLink>
                     </div>

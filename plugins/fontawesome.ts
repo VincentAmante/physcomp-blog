@@ -16,7 +16,8 @@ import {
   faMinus,
   faHeart,
   faChevronLeft,
-  faMoneyBill
+  faMoneyBill,
+  faHashtag,
 } from '@fortawesome/free-solid-svg-icons'
 
 const icons = [
@@ -30,7 +31,8 @@ const icons = [
   faChevronLeft,
   faGoogleDrive,
   faFigma,
-  faMoneyBill
+  faMoneyBill,
+  faHashtag,
 ]
 library.add(...icons)
 
