@@ -13,41 +13,82 @@
         <section id="home"
             class="bg-opacity-5 py-8 lg:py-16 w-full flex flex-col lg:flex-row items-center justify-center relative h-screen">
             <div class="flex flex-col justify-center items-center w-full lg:w-auto px-4">
-                <div>
+                <div class="w-full">
                     <div
-                        class="text-4xl text-center lg:text-8xl text-outline-primary font-extrabold uppercase text-transparent">
+                        class="w-full text-6xl text-center lg:text-left lg:text-8xl text-outline-primary font-extrabold uppercase text-transparent">
                         Vincent
                     </div>
-                    <div class="text-xl lg:text-6xl font-extrabold text-primary">Amante</div>
-                    <p class="opacity-60 italic">BSU#415215</p>
+                    <div class="text-4xl text-center lg:text-6xl lg:text-left font-extrabold text-primary">Amante</div>
+                    <p class="opacity-60 italic w-full text-center lg:text-left">BSU#415215</p>
                 </div>
-                <h1 class="text-3xl">Physical Computing Portfolio</h1>
+                <h1 class="text-xl lg:text-3xl">Physical Computing Portfolio</h1>
             </div>
+            <div class="divider divider-vertical lg:divider-horizontal"></div>
             <div class="relative  flex flex-col items-center px-4">
-                <div class="relative isolate max-w-xs lg:max-w-sm flex flex-col rounded-lg">
-                    <div class="p-4 flex flex-col gap-2">
+                <div class="relative isolate max-w-xs lg:max-w-sm flex flex-col rounded-lg gap-4">
+
+                    <h2 class="text-xl">Blog Links</h2>
+                    <div class="flex columns-2 flex-wrap gap-2">
                         <NuxtLink to="#thematic-infographic">
-                            <h3
-                                class="bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
-                                Infographic
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                #Infographic
                             </h3>
                         </NuxtLink>
                         <NuxtLink to="#deeno-board">
-                            <h3
-                                class="bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
-                                Deeno Board
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                #Deeno Board
                             </h3>
                         </NuxtLink>
                         <NuxtLink to="/experiments">
-                            <h3
-                                class="bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
-                                Experiments
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                /Experiments
                             </h3>
                         </NuxtLink>
                         <NuxtLink to="/blog">
-                            <h3
-                                class=" bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
-                                Blog
+                            <h3 class=" bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                /Blog
+                            </h3>
+                        </NuxtLink>
+                    </div>
+
+                    <h2 class="text-xl">External Links</h2>
+                    <div class="flex columns-2 flex-wrap gap-2">
+                        <NuxtLink
+                            to="https://drive.google.com/drive/folders/1d9U-e_XEdIsf7rQIw3MbdTMxlmwrCLdK?usp=drive_link"
+                            target="_blank">
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fab', 'google-drive']"></font-awesome-icon>
+                                </ClientOnly>
+                                Google Drive
+                            </h3>
+                        </NuxtLink>
+                        <NuxtLink
+                            to="https://docs.google.com/spreadsheets/d/1y5j614iY26vvhyjK-crojL3V2kUf0Vsrvb2jJIWpxmE/edit?usp=sharing"
+                            target="_blank">
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fas', 'money-bill']"></font-awesome-icon>
+                                </ClientOnly>
+                                Cost Sheet
+                            </h3>
+                        </NuxtLink>
+                        <NuxtLink
+                            to="https://www.figma.com/file/dgfQ2uo7mbIjexZwSPg7Sn/LED-Board?type=design&node-id=0%3A1&t=iQnAi0zgyOXNOaQR-1"
+                            target="_blank">
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fab', 'figma']"></font-awesome-icon>
+                                </ClientOnly>
+                                Figma
+                            </h3>
+                        </NuxtLink>
+                        <NuxtLink to="https://github.com/louisuy/deenoboard" target="_blank">
+                            <h3 class="bg-base-100 p-4 py-2 btn btn-outline gap-2">
+                                <ClientOnly>
+                                    <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
+                                </ClientOnly>
+                                Github Repo
                             </h3>
                         </NuxtLink>
                     </div>
@@ -56,7 +97,7 @@
         </section>
         <section id="thematic-infographic" class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
             <div class="w-full flex flex-col items-center h-full py-4">
-                <h2 class="text-4xl text-primary uppercase font-bold">
+                <h2 class="text-3xl lg:text-4xl text-primary uppercase font-bold">
                     Thematic Infographic
                 </h2>
                 <div class="flex flex-col gap-4 py-3 items-center">
@@ -140,11 +181,11 @@
                                 below:
                             </p>
                             <div class="flex gap-4">
-                                <NuxtLink to="/blog/">
-                                    <button class="btn btn-primary">Blog</button>
+                                <NuxtLink to="/blog">
+                                    <button class="btn btn-outline">/Blog</button>
                                 </NuxtLink>
                                 <NuxtLink to="/experiments/deeno-board">
-                                    <button class="btn btn-primary">Experiment</button>
+                                    <button class="btn btn-outline">/Experiment</button>
                                 </NuxtLink>
                             </div>
                         </div>
@@ -159,7 +200,7 @@
                         <h2 class="text-2xl font-semibold py-2 max-w-xl text-center">
                             As for the lovely team that worked on this project with me, here are all of us and our roles.
                         </h2>
-                        <img class="max-w-5xl" src="@/assets/images/meet-the-team.png" />
+                        <img class="max-w-5xl w-full" src="@/assets/images/meet-the-team.png" />
                     </div>
                 </div>
             </div>

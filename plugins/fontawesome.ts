@@ -3,7 +3,9 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 import {
-  faGithub
+  faGithub,
+  faGoogleDrive,
+  faFigma,
 } from '@fortawesome/free-brands-svg-icons'
 
 import {
@@ -13,7 +15,8 @@ import {
   faPlus,
   faMinus,
   faHeart,
-  faChevronLeft
+  faChevronLeft,
+  faMoneyBill
 } from '@fortawesome/free-solid-svg-icons'
 
 const icons = [
@@ -24,7 +27,10 @@ const icons = [
   faMinus,
   faGithub,
   faHeart,
-  faChevronLeft
+  faChevronLeft,
+  faGoogleDrive,
+  faFigma,
+  faMoneyBill
 ]
 library.add(...icons)
 
