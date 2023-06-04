@@ -122,6 +122,10 @@ main:deep(video) {
   @apply w-full rounded-lg max-w-xs
 }
 
+main:deep(table) {
+  @apply table table-zebra border-[1px] border-primary border-opacity-25
+}
+
 .router-link-active {
   @apply bg-primary bg-opacity-25 rounded-md;
 }
