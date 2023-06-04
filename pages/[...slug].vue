@@ -1,9 +1,40 @@
 <script setup lang="ts">
 
+const experimentsQuery = await queryContent('experiments')
+  .where({
+    navigation: {
+      $ne: false
+    }
+  })
+  .find()
+  .then((data) => {
+    return data
+  })
+const blogsQuery = await queryContent('blog')
+  .where({
+    navigation: {
+      $ne: false
+    }
+  })
+  .find()
+  .then((data) => {
+    return data
+  })
+
+const path = useRoute().fullPath
+
+const isExperiments = computed(() => {
+  return (path === '/experiments')
+})
+const isBlogs = computed(() => {
+  return (path === '/blog')
+})
+
 </script>
 
 <template>
   <main class="px-6 py-16 flex gap-2 flex-col lg:flex-row">
+
     <div class="drawer h-full basis-1/3 bg-base-100 border-[1px] border-primary p-4 rounded-lg">
       <nav
         class="drawer-side max-h-none flex flex-col text-white prose prose-a:no-underline prose-li:list-none prose-li:list-outside">
@@ -29,13 +60,46 @@
       </nav>
     </div>
     <div class="flex flex-col w-full rounded-lg prose-lg px-8 grow basis-3/4 prose-li:list-disc py-8">
-      <ContentDoc v-slot="{ doc }">
-        <div class="pb-4 border-b-2 border-b-primary">
-          <h1 class="text-6xl font-boldy mb-1">
-            {{ doc.title }}
-          </h1>
+      <div v-if="isExperiments">
+        <div v-for="item in experimentsQuery">
+          <NuxtLink :to="item._path"
+            class="pl-4 border-l-primary border-l-[1px]  py-2 flex flex-col gap-0 mb-6 group  hover:bg-primary hover:bg-opacity-20">
+            <div class="opacity-100">
+              <div class="text-primary my-0 text-2xl ">{{ item.title }}
+              </div>
+              <div class="text-neutral-400 max-w-2xl">{{ item.description }}</div>
+            </div>
+            <img class="my-1 max-w-xs" :src="item.image">
+          </NuxtLink>
+          <div class="divider"></div>
         </div>
-        <ContentRenderer :value="doc" />
+      </div>
+      <div v-if="isBlogs">
+        <div v-for="item in blogsQuery">
+          <NuxtLink :to="item._path"
+            class="pl-4 border-l-primary border-l-[1px] py-2 flex flex-col gap-0 mb-6 group hover:bg-primary hover:bg-opacity-20">
+            <div class="opacity-100">
+              <div class="text-primary my-0 text-2xl">{{ item.title }}
+              </div>
+              <div class="text-neutral-400 max-w-2xl">{{ item.description }}</div>
+            </div>
+            <img class="my-1 max-w-xs" :src="item.image">
+          </NuxtLink>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <ContentDoc>
+        <template v-slot="{ doc }" #default>
+          <div class="pb-4 border-b-2 border-b-primary">
+            <h1 class="text-6xl font-boldy mb-1">
+              {{ doc.title }}
+            </h1>
+          </div>
+          <ContentRenderer v-if="!(isExperiments) && !(isBlogs)" :value="doc" />
+        </template>
+        <template #empty>
+
+        </template>
       </ContentDoc>
     </div>
   </main>
