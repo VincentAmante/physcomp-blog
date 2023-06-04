@@ -8,19 +8,23 @@ import {
 
 import {
   faXmark,
+  faChevronCircleUp,
   faChevronUp,
   faPlus,
   faMinus,
   faHeart,
+  faChevronLeft
 } from '@fortawesome/free-solid-svg-icons'
 
 const icons = [
   faXmark,
+  faChevronCircleUp,
   faChevronUp,
   faPlus,
   faMinus,
   faGithub,
   faHeart,
+  faChevronLeft
 ]
 library.add(...icons)
 

@@ -34,10 +34,21 @@ const isBlogs = computed(() => {
 
 <template>
   <main class="px-6 py-16 flex gap-2 flex-col lg:flex-row">
-
+    <NuxtLink to="#top"
+      class="bottom-0 right-0 m-4 lg:mx-12 fixed cursor-pointer btn btn-ghost opacity-50 hover:opacity-100 text-primary">
+      <ClientOnly>
+        <font-awesome-icon :icon="['fas', 'chevron-up']" class="text-5xl" />
+      </ClientOnly>
+    </NuxtLink>
     <div class="drawer h-full basis-1/3 bg-base-100 border-[1px] border-primary p-4 rounded-lg">
       <nav
         class="drawer-side max-h-none flex flex-col text-white prose prose-a:no-underline prose-li:list-none prose-li:list-outside">
+        <NuxtLink to="/" class="btn btn-ghost text-primary text-2xl w-full flex items-center px-2 font-bold">
+          <ClientOnly>
+            <font-awesome-icon :icon="['fas', 'chevron-left']" class="mr-2" />
+          </ClientOnly>
+          Return to Home
+        </NuxtLink>
         <ContentNavigation v-slot="{ navigation }">
           <ul class="pl-1 flex flex-col gap-2">
             <li class="first:border-b-[1px] first:border-b-primary first:border-opacity-25" v-for="link in navigation"
@@ -63,7 +74,7 @@ const isBlogs = computed(() => {
       <div v-if="isExperiments">
         <div v-for="item in experimentsQuery">
           <NuxtLink :to="item._path"
-            class="pl-4 border-l-primary border-l-[1px]  py-2 flex flex-col gap-0 mb-6 group  hover:bg-primary hover:bg-opacity-20">
+            class="pl-4 border-l-primary border-l-[1px]  py-2 flex flex-col gap-0 mb-6 group  hover:bg-primary hover:bg-opacity-20 rounded-r-md">
             <div class="opacity-100">
               <div class="text-primary my-0 text-2xl ">{{ item.title }}
               </div>
@@ -91,7 +102,7 @@ const isBlogs = computed(() => {
       <ContentDoc>
         <template v-slot="{ doc }" #default>
           <div class="pb-4 border-b-2 border-b-primary">
-            <h1 class="text-6xl font-boldy mb-1">
+            <h1 id="top" class="text-6xl font-boldy mb-1">
               {{ doc.title }}
             </h1>
           </div>

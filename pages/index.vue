@@ -1,14 +1,13 @@
 <script setup lang="ts">
-
-
 </script>
 
 <template>
     <main class="flex flex-col items-center justify-center w-full overflow-hidden scroll-smooth">
+
         <NuxtLink to="#home"
-            class="bottom-0 right-0 m-4 lg:mx-12 fixed btn-circle cursor-pointer btn btn-neutral opacity-50 hover:opacity-100">
+            class="bottom-0 right-0 m-4 lg:mx-12 fixed cursor-pointer opacity-50 hover:opacity-100 text-primary">
             <ClientOnly>
-                <font-awesome-icon :icon="['fas', 'chevron-up']" class="text-4xl" />
+                <font-awesome-icon :icon="['fas', 'chevron-circle-up']" class="text-5xl" />
             </ClientOnly>
         </NuxtLink>
         <section id="home"
@@ -45,10 +44,10 @@
                                 Experiments
                             </h3>
                         </NuxtLink>
-                        <NuxtLink to="/blogs">
+                        <NuxtLink to="/blog">
                             <h3
                                 class=" bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
-                                Blogs
+                                Blog
                             </h3>
                         </NuxtLink>
                     </div>
@@ -137,11 +136,15 @@
                                 </li>
                             </ul>
                             <p>
-                                To see more details about the progress of the project, see the blog below:
+                                To see more details about the progress of the project, see either the blog or the experiment
+                                below:
                             </p>
-                            <div>
-                                <NuxtLink to="/blogs/">
-                                    <button class="btn btn-primary">Blog Posts</button>
+                            <div class="flex gap-4">
+                                <NuxtLink to="/blog/">
+                                    <button class="btn btn-primary">Blog</button>
+                                </NuxtLink>
+                                <NuxtLink to="/experiments/deeno-board">
+                                    <button class="btn btn-primary">Experiment</button>
                                 </NuxtLink>
                             </div>
                         </div>
