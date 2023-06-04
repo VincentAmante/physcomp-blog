@@ -24,5 +24,13 @@ export default defineNuxtConfig({
   ],
   tailwindcss: {
     cssPath: '~/assets/styles/main.css'
+  },
+  content: {
+    highlight: {
+      theme: 'slack-dark',
+      preload: [
+        'c'
+      ]
+    }
   }
 })

@@ -13,4 +13,6 @@ title: Experiments
 
 ### [Calculator](/experiments/calculator)
 
+### [Sound Sensor + LED Strip](/experiments/sound-sensor)
+
 ### [Deeno Board](/experiments/deeno-board)

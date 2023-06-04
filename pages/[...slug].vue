@@ -47,7 +47,7 @@ main:deep(a) {
 }
 
 main:deep(pre) {
-  @apply mockup-code bg-cyan-950 font-mono text-white
+  @apply mockup-code bg-base-300 font-['Fira_Code'] leading-5
 }
 
 main:deep(img) {

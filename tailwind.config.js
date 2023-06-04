@@ -20,6 +20,9 @@ module.exports = {
         secondary: '#181B24',
       },
     },
+    fontFamily: {
+      'mono': ['Fira Code', 'monospace'],
+    },
   },
   plugins: [
     require("daisyui"),
