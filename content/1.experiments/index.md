@@ -15,4 +15,4 @@ title: Experiments
 
 ### [Sound Sensor + LED Strip](/experiments/sound-sensor)
 
-### [Deeno Board](/experiments/deeno-board)
+### [Deeno Board](/#deeno-board)

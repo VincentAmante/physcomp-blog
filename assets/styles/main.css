@@ -8,6 +8,7 @@
     html {
         font-family: 'Visby', sans-serif;
         @apply text-primary;
+        scroll-behavior: smooth;
     }
 }
 

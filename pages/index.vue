@@ -1,37 +1,20 @@
 <script setup lang="ts">
-// import { vElementHover } from '@vueuse/components';
 
-// const isArtistHovered = ref(false);
-// function onArtistHovered(state: boolean) {
-//     isArtistHovered.value = state;
-// }
-
-// const isDeveloperHovered = ref(false);
-// function onDeveloperHovered(state: boolean) {
-//     isDeveloperHovered.value = state;
-// }
-
-// const isGamesHovered = ref(false);
-// function onGamesHovered(state: boolean) {
-//     isGamesHovered.value = state;
-// }
-
-// const isStoriesHovered = ref(false);
-// function onStoriesHovered(state: boolean) {
-//     isStoriesHovered.value = state;
-// }
-
-// const isOtherHovered = ref(false);
-// function onOtherHovered(state: boolean) {
-//     isOtherHovered.value = state;
-// }
 
 </script>
 
 <template>
-    <main class="flex flex-col items-center justify-center w-full overflow-hidden">
-        <section
-            class="bg-opacity-5 py-8 lg:py-16 w-full flex flex-col lg:flex-row items-center justify-center gap-12 relative h-screen">
+    <main class="flex flex-col items-center justify-center w-full overflow-hidden scroll-smooth">
+
+
+        <NuxtLink to="#home"
+            class="bottom-0 mx-auto m-4 fixed btn-circle cursor-pointer btn btn-neutral opacity-50 hover:opacity-100">
+            <ClientOnly>
+                <font-awesome-icon :icon="['fas', 'chevron-up']" class="text-4xl" />
+            </ClientOnly>
+        </NuxtLink>
+        <section id="home"
+            class="bg-opacity-5 py-8 lg:py-16 w-full flex flex-col lg:flex-row items-center justify-center relative h-screen">
             <div class="flex flex-col justify-center items-center w-full lg:w-auto px-4">
                 <div>
                     <div
@@ -43,10 +26,21 @@
                 </div>
                 <h1 class="text-3xl">Physical Computing Portfolio</h1>
             </div>
-            <div class="divider md:divider-horizontal"></div>
             <div class="relative  flex flex-col items-center px-4">
                 <div class="relative isolate max-w-xs lg:max-w-sm flex flex-col rounded-lg">
                     <div class="p-4 flex flex-col gap-2">
+                        <NuxtLink to="#thematic-infographic">
+                            <h3
+                                class="bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
+                                Infographic
+                            </h3>
+                        </NuxtLink>
+                        <NuxtLink to="#deeno-board">
+                            <h3
+                                class="bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
+                                Deeno Board
+                            </h3>
+                        </NuxtLink>
                         <NuxtLink to="/experiments">
                             <h3
                                 class="bg-base-100 text-3xl p-4 py-2 border-[1px] border-white border-solid rounded-lg flex items-center hover:bg-white hover:text-secondary cursor-pointer">
@@ -63,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
+        <section id="thematic-infographic" class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
             <div class="w-full flex flex-col items-center h-full py-4">
                 <h2 class="text-4xl text-primary uppercase font-bold">
                     Thematic Infographic
@@ -102,7 +96,12 @@
                 </div>
             </div>
         </section>
-        <section class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
+        <div class="divider">
+            <ClientOnly>
+                <font-awesome-icon :icon="['fas', 'heart']" class="text-xl opacity-30"></font-awesome-icon>
+            </ClientOnly>
+        </div>
+        <section id="deeno-board" class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
             <div class="w-full flex flex-col items-center h-full py-4 ">
                 <h2 class="text-4xl text-primary uppercase font-bold">
                     Deeno Board
@@ -164,6 +163,11 @@
                 </div>
             </div>
         </section>
+        <div class="divider">
+            <ClientOnly>
+                <font-awesome-icon :icon="['fas', 'heart']" class="text-xl opacity-30"></font-awesome-icon>
+            </ClientOnly>
+        </div>
         <section class="min-h-screen w-full py-4 lg:py-8 flex flex-col">
             <div class="w-full flex flex-col items-center h-full py-4 ">
                 <h2 class="text-4xl text-primary uppercase font-bold">
